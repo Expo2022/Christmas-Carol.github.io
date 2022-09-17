@@ -3,8 +3,9 @@ header{
     justify-content:  space-between;
     min-width: none;height: 150px;
     background-color: red;
-    align-items: center;
+    
     padding: 10px;
+    flex-direction: column;
 }
 .logo{
     display: flex;
@@ -26,23 +27,19 @@ a{
 nav a{
     font-weight: 600;
     padding-right: 10px;
+    padding: 10px;
 }
 nav a:hover{
     color: white;
+
+        
 }
-@media (max-width:700px){
-    header{
-       flex-direction: column;
-    }
-    nav{
-        padding: 10px;
-    
-    }
-    
-}
+
+
 .imagen{
     border-style: solid;
     border-radius: 100px;
+    margin: 0%;
 }
 .video{
     margin: 0%;
